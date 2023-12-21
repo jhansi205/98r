@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../98r/css/day2.css">
     <style>
         p{
             color: rgb(0, 132, 255);
-            text-align: justify;
-            text-decoration-line: line-through;
+            text-align: center;
+            /* text-decoration-line:overline;
+            text-decoration-color:rosybrown ;
+            text-decoration-style: dashed;
+            text-decoration-thickness: 2px; */
+            text-decoration: dashed rosybrown overline 1px;
+            /* text-transform: capitalize;
+            text-shadow: 1px 1px red; */
+        }
+        a{
+    
+            text-decoration: none;
+            text-transform: capitalize;
+            text-shadow: -2px -1px 1px red,2px 2px 3px green;
         }
         del{
-            text-decoration-line: underline;
+            color: aqua;
+            /* text-decoration-line: underline; */
+        }
+        #sec{
+            color: red;
+        }
+        .common{
+            color: brown;
         }
     </style>
 </head>
 <body>
+    <a href="#">link1</a>
 <p><del>Internal CSS</del> (Cascading Style Sheets) refers to the practice of including CSS styles 
     directly within an HTML document, rather than in a separate external stylesheet. </p>
+    <p class="common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dignissimos voluptatum quasi at repellendus esse voluptates ducimus? Repudiandae fugiat amet nobis ut alias debitis cumque eum molestiae, illo aut suscipit.</p>
+    <p class="common" id="sec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ipsa ipsam corrupti temporibus, totam alias quidem modi impedit nihil nostrum obcaecati libero, id quos! Nesciunt sed in enim animi sunt.</p>
+    <p class="common">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem cumque nam quasi aperiam nihil accusamus unde quod asperiores minus quam quae corporis, nobis quas, est adipisci architecto deserunt quos natus?</p>
 </body>
 </html>
