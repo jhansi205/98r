@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+
+     .btn{
+        background-color:blue;
+  color: white;
+  padding: 3px;
+  margin: 1px 0;
+  border: none;
+  width: 30%;
+  border-radius: 3px;
+  font-size: 17px;
+
+     }
+     .cancelbtn{
+        background-color: red;
+     }
+     .psw{
+        margin-left: 100px;
+     }
+    </style>
+  </head>
+  <body>
+  <div class="login-container">
+    <form class="login-form">
+        <h2>Login</h2>
+          <label for="email">Email</label><br>
+         <input type="text" placeholder="Email address or phone number" name="email" id="email"><br>
+         <label for="pword">Password</label><br>
+         <input type="password"placeholder="password" name="pword" id="pword"><br><br>
+         <button type="submit" formaction="../98r/success.html">Login</button><br>
+         <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn" >Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+  
+      </form>
+  </div>
+</body>
+</html>
+
