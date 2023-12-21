@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="fname">Name</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name" >
+            <input type="text" name="lname" id="lname"placeholder="Last Name" ><br>
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9+]{10}">
+           <br> <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="19" max="120">
+            <br><label for="gender">Gender</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio"name="gender" id="female"><br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob" id="dob"min="1900-01-01" max="2005-12-31">
+            <br><select name="sklls" id="skills">
+                <optgroup label="Frontend">skills</optgroup>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select>
+           <br> <label for="skill">Skill</label>
+            <input list="skill" name="addl skill">
+            <datalist id="skill">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </datalist><br>
+        <textarea name="omments" id="comments" placeholder="comments" cols="30" rows="10"></textarea><br>
+            <input type="submit">
+            <button type="submit" formaction="day7.html">
+                <img src="../images/radha krishna.jpeg" alt="icon" height="20px" width="30px">Click here
+            </button>
+        </fieldset>
+    </form>
+</body>
+</html>
