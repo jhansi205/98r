@@ -43,5 +43,40 @@
           <dd>Class Selector:</dd>
           <dl>The class selector targets HTML elements with a specific class attribute. Unlike IDs, multiple elements can share the same class.</dl>
           <dl>priority:inline&gtid&gtclass&gtelement&gtinternal&gtexternal</dl>
+          <dd>Universal Selector</dd>
+          <dl>The universal selector selects all elements on the page.
+            Syntax: * { /* styles */ }
+            Example: The following CSS rule sets the margin and padding of all elements to 0.
+            ex: * {
+              margin: 0;
+              padding: 0;
+            }
+            </dl>
+            <dd>combinator selector</dd>
+            <dl>combinators are used to define relationships between different selectors, allowing you to target specific elements based on their position or relationship within the HTML document. </dl>
+            <dd>descendent selector (Whitespace)</dd>
+            <dl>Selects all elements that are descendants of a specified element.
+              Syntax: ancestor descendant { /* styles */ }
+              ex:p em {
+                color: red;
+              }
+              
+            </dl>
+            <dd>Child Selector</dd>
+            <dl> (> or :first-child):
+
+              Selects all elements that are a direct child of a specified element.
+              Syntax: parent > child { /* styles */ } or parent :first-child { /* styles */ }
+            ex:ul > li {
+              list-style-type: square;
+            }
+            </dl>
+            <dd>elementclass selector</dd>
+            <dl>ou can use a combination of an element selector and a class selector to target specific elements with a particular class. This is often referred to as an "element class selector" or simply a "class selector.syntax:
+              elementname.classname {
+              /* styles */
+            }
+            </dl>
+            
 </body>
 </html>
