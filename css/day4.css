@@ -1,0 +1,47 @@
+#first.firstPara{
+    color: red;
+}
+table, th,td{
+    border:  solid;
+    /* border-collapse: collapse; */
+    /* width: 100%; */
+    text-align: center;
+    vertical-align: text-bottom;
+    border-spacing: 15px;
+    
+    
+}
+table{
+    width: 100%;
+    height: 200px;
+    caption-side: bottom;
+}
+div{
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    border: 2px solid;
+    padding: 10px;
+    /* margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 20px 30px 40px;
+    outline-style: solid;
+    outline-color: darkmagenta;
+    outline-width: 3px;
+    outline-offset: 10px;
+    /* font-family: cursive; */
+    font-family: 'Dancing Script', cursive;
+  
+}
+.header{
+    background-color: brown;
+}
+span{
+ border: 2px solid;
+ padding: 10px;
+ margin:20px;
+ font-family: 'Dancing Script', cursive;
+}

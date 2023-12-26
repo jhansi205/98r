@@ -1,0 +1,36 @@
+#parentDiv{
+    background-color: deepskyblue;
+}
+#div1{
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+
+}
+#div2{
+  background-color: darkgreen; 
+ /*position: absolute;
+ top: 200px;
+ right: 100px; */
+ position: relative;
+ bottom: 10px;
+ left: 10px;
+ width: 100px;
+ height: 100px;
+ z-index: 1;
+
+}
+#div3{
+ background-color: firebrick;
+ /* width: 200px;
+ height: 200px; */
+ width: 100px;
+ height: 100px;
+ position: relative;
+ bottom: 150px;
+ z-index: 0;
+}
+ 

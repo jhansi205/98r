@@ -1,0 +1,42 @@
+/* div li{
+    color: red;
+}
+div>ul{
+    background-color: burlywood;
+}
+div+ul{
+    color: blueviolet;
+}
+/* p+span{
+    color: cadetblue;
+} */
+/*#spanpara+span{
+    background-color: blueviolet;
+} */
+/* p[id]{
+    background-color:red;
+}
+p[id="firstPara"]{
+    background-color: chocolate;
+} */
+/* p[id ^="first"]{
+    background-color: blue;
+} */
+/* p[id $="Para"]{
+ background-color: crimson;
+} */
+/* p[id*="Para"]{
+   background-color: darkblue;
+} */
+/* p[id~="Para"]{
+    background-color: darkcyan;
+} */
+/* p[id |="Para"]{
+    background-color: darkorange;
+} */
+/* input[class]{
+    color: green;
+} */
+label~.username{
+    color: green;
+}

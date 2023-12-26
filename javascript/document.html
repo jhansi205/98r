@@ -42,7 +42,41 @@
     <li>(++)pre increment</li>
     <li>post increment(++)</li>
 </ul></dl>
-
+<center><h2>operators</h2></center>
+<dd>comparsion operators</dd>
+<dl>(>,<,<=,>=,==,===)</dl>
+<dl>= is used for assignment.</dl>
+<dl>== is the loose equality operator, which performs type coercion.</dl>
+<dl>=== is the strict equality operator, which does not perform type coercion and requires both value and type to be the same for equality. which check the (typeof) datatype</dl>
+<dd>assignment operators</dd>
+eg:var i=10;
+i+=1;//i=i+1
+i-=1;//i=i-1
+i*=5//i=i*5
+i/=10//i=i/10
+i%=10//i=i%10
+<dl>typeof(null).o/p:object</dl>
+<dl>typeof(undefined).o/p:undefined</dl>
+<dd>Logical operators</dd>
+<dl>logical AND(&&) .o/p:true or false</dl>
+<dl>logical OR(||)</dl>
+<dl>logiacal NOT(!)</dl>
+<dd>note: console.log(0.1+0.2).o/p:0.30000000034 this is the special case remaining are give exact float values.</dd>
+<dd>Bitwise operators</dd>
+<dl>Bitwise OR(|).it change binary numbers.
+    Performs a bitwise OR operation on each pair of corresponding bits. If at least one of the bits is 1, the result is 1; otherwise, it's 0.</dl>
+<dl>Bitwise AND(&).Performs a bitwise AND operation on each pair of corresponding bits. If both bits are 1, the result is 1; otherwise, it's 0.eg:let result = 5 & 3; // 0101 & 0011 = 0001 (1 in decimal)
+    console.log(result); // 1</dl>
+<dl>Bitwise NOT(~).Performs a bitwise NOT operation on each bit, changing 1s to 0s and 0s to 1s.</dl>
+<dl>Bitwise XOR(^).Performs a bitwise XOR (exclusive OR) operation on each pair of corresponding bits. If the bits are different, the result is 1; if the bits are the same, the result is 0.eg:let result = 5 ^ 3; // 0101 ^ 0011 = 0110 (6 in decimal)
+    console.log(result); // 6
+    </dl>
+    <dl>Left Shift(<<).Shifts the bits of the left operand to the left by a specified number of positions. The empty positions on the right are filled with zeros.eg:let result = 5 << 1; // 0101 << 1 = 1010 (10 in decimal)
+        console.log(result); // 10
+        </dl>
+    <dl>Right shift(>>)Shifts the bits of the left operand to the right by a specified number of positions. The empty positions on the left are filled based on the sign bit (0 for positive numbers, 1 for negative numbers).let result = 5 >> 1; // 0101 >> 1 = 0010 (2 in decimal)
+        console.log(result); // 2
+        </dl>
 </body>
 </html>
 
