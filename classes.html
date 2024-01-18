@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    class Employee{
+        constructor(name,designation,salary,exp){
+             this.name=name;
+             this.designation=designation;
+             this.salary=salary;
+             this.exp=exp;
+             console.log(this);
+        }
+        hike()//method
+       {
+        if(this.exp>=2){
+            this.salary=this.salary+0.1*this.salary;
+        }else{
+            this.salary=this.salary+0.2*this.salary;
+        }
+    }
+    }
+    
+    const emp=new Employee("mahi","enginner",35000,1);
+    const emp1=new Employee("jhansi","sr.enginner",65000,5);
+    const emp2=new Employee("teja","sr.enginner",55000,4);
+    const emp3=new Employee("lalitha","enginner",25000,1);
+    emp.hike();
+    console.log(emp);
+    emp1.hike();
+    console.log(emp1);
+    emp2.hike();
+    console.log(emp2);
+    emp3.hike();
+    console.log(emp3);
+    class Person{
+        constructor(firstname,lastname,age){
+           this.firstname=firstname;
+           this.lastname=lastname;
+           this.age=age;
+           console.log(this);
+        }
+    }
+    const person1=new Person("jhansi","nandigam",22);
+    const person2=new Person("mahalakshmi","nandigam",24);
+    const person3=new Person("teja","manne",25);
+    const person4=new Person("lalitha","veervalli",27);
+   // Car
+    class Car{
+        constructor(make,model,year){
+            this.make=make;
+            this.model=model;
+            this.year=year;
+            console.log(this);
+        }
+        
+    }
+    const car1=new Car("Mercedes-Benz","A-Class",2022);
+    const car2=new Car("Audi","A3",2023);
+    const car3=new Car("GMC","Acadia",2023);
+    const car4=new Car("Hyundai","Accent",2022);
+    class Remote{
+        constructor(brand,model,buttons){
+            this.brand=brand;
+            this.model=model;
+            this.buttons=buttons;
+            console.log(this);
+        }
+    }
+    const remote1=new Remote("All Brands","Universal All Models","lot of buttons");
+    const remote2=new Remote("Tata Sky","Universal","lot of buttons");
+    const remote3=new Remote("Crown","COMPATIBLE REMOTE CONTROL","lot of buttons");
+    class Computer{
+      constructor(name,processor,edition,version,systemtype){
+        this.name=name;
+        this.processor=processor;
+        this.edition=edition;
+        this.version=version;
+        this.systemtype=systemtype;
+        console.log(this);
+
+      }
+    }
+    const computer1=new Computer("LAPTOP-1K991391","Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz   2.11 GHz","Windows 11 Home Single Language","22H2","64-bit operating system, x64-based processor");
+    
+  </script>  
+</body>
+</html>

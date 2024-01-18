@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+    function leapYear(n){
+     let array1=[];
+     let array2=[];
+     for(let i=2000;i<=n;i++){
+        if( i % 4 === 0 && (i % 100 !== 0 || i % 400 === 0)){
+        array1.push(i);
+        }else{
+            array2.push(i);
+        }
+    }
+   return{array1,array2}
+       
+     }
+     let n=2040;
+     let result=leapYear(n);
+     console.log("Leap Years:",result.array1);
+     console.log("Non-Leap Years:",result.array2);
+
+    </script>
+    
+</body>
+</html>

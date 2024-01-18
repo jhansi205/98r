@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    function helper(n){
+   
+    
+    let rem;
+    let sum=0;
+    let temp=n;
+    while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=Math.floor(n/10);
+    }if(sum===temp){
+        return "palindrome";
+    }else{
+        return "Not palindrome";
+    }
+    
+    
+}
+let n=126;
+console.log(helper(n));
+   </script> 
+</body>
+</html>
